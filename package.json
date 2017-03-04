@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "pushstate-server ."
+  },
+  "devDependencies": {
+    "pushstate-server": "^3.0.0"
+  }
+}
