@@ -276,13 +276,23 @@
     body {
       color: #000;
       font-family: "Roboto", sans-serif;
-      padding-top: 140px
+      /* adding main-bacground to the top
+      padding-top: 140px;
+      */
     }
 
     @media only screen and (max-width: 956px) {
       body {
+        /* adding main-bacground to the top
         padding-top: 120px
+        */
       }
+    }
+
+    .main-background {
+      height: 30rem;
+      background: url(./static/img/main-background.jpg) no-repeat top center;
+      background-size: cover
     }
 
     img {
@@ -2250,7 +2260,7 @@
 
     .amp-conf a.reserve-button {
       display: inline-block;
-      background: #FFAB00;
+      background: #8098FF;
       border-radius: 2px;
       padding: 0.5em 1em;
       color: #fff;
@@ -2754,6 +2764,7 @@
         visibility: visible
       }
     }
+
   </style>
   <noscript>
     <style amp-boilerplate>
@@ -2786,6 +2797,7 @@
     </script>
   </amp-analytics>
 
+  <div class="main-background"></div>
 
   <div class="wrap">
     <div class="content">
@@ -2841,8 +2853,7 @@
             <div class="day">
               <!--<h4>March 8th</h4>-->
               <ul class="schedule">
-                <li class="">
-
+                <li class="session">
 
                   <time>1700</time>
                   <div>
@@ -2855,9 +2866,9 @@
                   <span class="image multiple"><amp-img src="https://avatars2.githubusercontent.com/u/4021908?v=3&s=400" width="100" height="100"></amp-img></span>
 
 
-                  <time>17:30</time>
+                  <time>1730</time>
                   <div>
-                    <h5 class="keynote">Keynote</h5>
+                    <h5 class="keynote">Opening notes</h5>
                     <small>Mario Vejlupek, ngParty (Organiser)</small>
                     <small>Martin Hochel, ngParty (Organiser)</small>
                     <small>Viliam Elischer, ngParty (Organiser)</small>
@@ -2969,7 +2980,7 @@
                       a new component is actually much easier than many expect, and Chen will walk you through it.</p>
                   </div>
                 </li>-->
-                <li class="">
+                <li class="session">
 
 
                   <time>2145</time>
